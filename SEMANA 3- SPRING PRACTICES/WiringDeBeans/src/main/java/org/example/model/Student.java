@@ -1,0 +1,50 @@
+package org.example.model;
+
+public class Student {
+
+    private String id;
+    private String name;
+    private String courseId;
+
+    public Student() {
+    }
+
+    public Student(String id, String name, String courseId) {
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getCourseId() {
+        return courseId;
+    }
+
+    public void setCourseId(String courseId) {
+        this.courseId = courseId;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof Student) {
+            Student student = (Student) obj;
+            return student.getId().equals(this.getId());
+
+        } else {
+            return false;
+        }
+
+    }
+}
