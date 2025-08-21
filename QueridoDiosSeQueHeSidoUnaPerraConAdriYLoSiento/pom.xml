@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>WiringDeBeans</artifactId>
+    <artifactId>QueridoDiosSeQueHeSidoUnaPerraConAdriYLoSiento</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -14,23 +14,20 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-
     <dependencies>
         <dependency>
-        <groupId>jakarta.servlet</groupId>
-        <artifactId>jakarta.servlet-api</artifactId>
-        <version>6.1.0</version>
-        <scope>provided</scope>
-    </dependency>
-    <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-context</artifactId>
-        <version>6.2.2</version>
-    </dependency>
-</dependencies>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>6.1.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>6.2.2</version>
+        </dependency>
+    </dependencies>
 
-<packaging>war</packaging>
-
-
+    <packaging>war</packaging>
 
 </project>

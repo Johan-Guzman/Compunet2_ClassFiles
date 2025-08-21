@@ -2,6 +2,7 @@ package org.example.service;
 
 
 import org.example.model.Student;
+import org.example.repository.CourseRepository;
 import org.example.repository.StudentRepository;
 
 import java.util.ArrayList;
@@ -9,11 +10,11 @@ import java.util.ArrayList;
 public class StudentService {
 
     private StudentRepository studentRepository;
-    private CourseService courseService;
+    private CourseRepository courseRepository;
 
-    public StudentService(StudentRepository studentRepository, CourseService courseService) {
+    public StudentService(StudentRepository studentRepository, CourseRepository courseRepository) {
         this.studentRepository = studentRepository;
-        this.courseService = courseService;
+        this.courseRepository=courseRepository;
     }
 
 
